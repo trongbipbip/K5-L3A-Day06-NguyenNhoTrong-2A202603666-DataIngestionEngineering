@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "definition",
+    "question": "Computer science nghiên cứu lĩnh vực gì?",
+    "expected_answer": "Computer science là ngành nghiên cứu computing, bao gồm các hiện tượng liên quan đến máy tính như Internet.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 20,
+    "evidence_quote": "The field of computer science (CS) is the study of computing, which includes all phenomena related to computers, such as the Internet.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "definition",
+    "question": "Theo tài liệu, algorithm là gì?",
+    "expected_answer": "Algorithm là một chuỗi các chỉ dẫn chính xác giúp thực hiện việc computing.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 20,
+    "evidence_quote": "An algorithm is a sequence of precise instructions that enables computing.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "limitation",
+    "question": "Ví dụ nào về nhiệm vụ mà cả máy tính và con người đều không thể thực hiện chính xác?",
+    "expected_answer": "Dự đoán chính xác các hệ hỗn loạn như thời tiết dài hạn.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 25,
+    "evidence_quote": "accurately predicting chaotic systems like long-term weather patterns",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "application",
+    "question": "Computer science có thể thúc đẩy lợi ích xã hội trong những lĩnh vực nào?",
+    "expected_answer": "Y tế công cộng, nông nghiệp bền vững, khí hậu bền vững và giáo dục.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 40,
+    "evidence_quote": "Computer science can advance social good by benefiting many people in many different areas, including public health, agricultural sustainability, climate sustainability, and education.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "cause-effect",
+    "question": "Vì sao một dataset thiên lệch có thể dẫn tới đối xử không công bằng?",
+    "expected_answer": "Vì dataset có thể đại diện quá mức hoặc thiếu đại diện cho một số nhóm; quyết định dựa trên dữ liệu đó có thể đối xử không công bằng với các nhóm bị đại diện sai.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 41,
+    "evidence_quote": "datasets, which can be biased if they overrepresent or underrepresent specific groups of people.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "sequence",
+    "question": "Ba giai đoạn của mô hình three As trong computational thinking là gì và theo thứ tự nào?",
+    "expected_answer": "Abstraction, Automation, rồi Analysis.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 52,
+    "evidence_quote": "1. Abstraction: The initial step involves problem formulation. 2. Automation: Next, the focus shifts to expressing the solution. 3. Analysis: Finally, the process encompasses solution execution and evaluation.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "metadata-filter",
+    "question": "Trong chapter 2, bước Abstraction của three As làm nhiệm vụ gì?",
+    "expected_answer": "Bước Abstraction thực hiện việc formulation của vấn đề.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 52,
+    "evidence_quote": "Abstraction: The initial step involves problem formulation.",
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "definition",
+    "question": "Decomposition trong computational thinking có nghĩa là gì?",
+    "expected_answer": "Đó là việc chia một vấn đề hoặc hệ thống phức tạp thành các phần hoặc bài toán con nhỏ hơn, dễ quản lý hơn.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 53,
+    "evidence_quote": "Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "comparison",
+    "question": "Testing và debugging khác nhau như thế nào?",
+    "expected_answer": "Testing giúp phát hiện lỗi trong chỉ dẫn hoặc algorithm; debugging là xác định và sửa lỗi trong code.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 53,
+    "evidence_quote": "Testing is crucial for uncovering errors within the step-by-step instructions or algorithms employed to tackle a problem.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "process",
+    "question": "Quy trình order to cash bắt đầu và kết thúc như thế nào?",
+    "expected_answer": "Nó bắt đầu khi khách hàng đặt hàng và kết thúc khi khoản thanh toán được nhận và ghi nhận.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 71,
+    "evidence_quote": "Order to cash: This is a comprehensive business flow that starts when a customer places an order and ends when the payment is received and recorded:",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "metadata-filter",
+    "question": "Trong chapter 2, fulfillment xử lý việc gì khi sản phẩm không có sẵn?",
+    "expected_answer": "Sản phẩm được phân bổ từ inventory; nếu không có sẵn thì có thể kích hoạt back-order hoặc quy trình sản xuất.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 71,
+    "evidence_quote": "The required products are allocated from inventory. If products are not available, this may trigger a back-order or manufacturing process.",
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "definition",
+    "question": "Một process trong operating system tối thiểu gồm những thành phần nào?",
+    "expected_answer": "Address space, CPU state và một tập OS resources.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 300,
+    "evidence_quote": "A process consists of at least an address space, a CPU state, and a set of OS resources.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "definition",
+    "question": "PID dùng để làm gì?",
+    "expected_answer": "PID là tập số duy nhất dùng để nhận diện các process.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 300,
+    "evidence_quote": "the name of a process is called a PID (process ID), which is a set of unique numbers that identify processes.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "comparison",
+    "question": "Compiler và interpreter khác nhau thế nào về cách xử lý source code?",
+    "expected_answer": "Compiler quét và dịch toàn bộ source code một lần; interpreter quét và dịch từng dòng một.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 350,
+    "evidence_quote": "Scans and translates the entire source code at once",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "comparison",
+    "question": "Relational database thường lưu dữ liệu như thế nào, và nonrelational database khác ở điểm nào?",
+    "expected_answer": "Relational database thường lưu trong bảng với cột là thuộc tính và hàng là bản ghi; nonrelational database không dùng phương pháp hàng-cột truyền thống.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 400,
+    "evidence_quote": "Relational databases typically store data in tables, with columns representing the attributes of the data and rows representing individual records.",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "comparison",
+    "question": "Nêu hai ưu điểm của waterfall model được tài liệu đề cập.",
+    "expected_answer": "Dễ hiểu và sử dụng; các bước được thực hiện tuần tự; các artifact được ghi chép đầy đủ. Chỉ cần nêu hai ý.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 468,
+    "evidence_quote": "It is easy to understand and use.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "limitation",
+    "question": "Vì sao waterfall model khó thích ứng khi yêu cầu thay đổi?",
+    "expected_answer": "Khi yêu cầu thay đổi, phải quay lại bước đầu và cập nhật tất cả artifact đã hoàn thành trước đó.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 468,
+    "evidence_quote": "It cannot easily accommodate changes in requirements.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "application",
+    "question": "Bootstrap được dùng như thế nào trong ứng dụng Django mẫu?",
+    "expected_answer": "Bootstrap là framework web mã nguồn mở, responsive, được dùng để tạo giao diện người dùng; CSS và JS được tải vào thư mục static/.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 600,
+    "evidence_quote": "install Bootstrap, which, as an open-source, responsive web application framework, can be used in web applications like Django to create UIs.",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "metadata-filter",
+    "question": "Trong chapter 12, private cloud khác public cloud ở điểm cốt lõi nào?",
+    "expected_answer": "Private cloud dành riêng cho một khách hàng hoặc tổ chức, không mở cho công chúng và có quyền truy cập bị hạn chế.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 700,
+    "evidence_quote": "A private cloud is a cloud deployment model where resources are dedicated to one customer such as a single organization for internal use",
+    "filter": {
+      "chapter": "12"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "definition",
+    "question": "Nanotechnology tập trung vào kích thước khoảng bao nhiêu?",
+    "expected_answer": "Khoảng từ 1 đến 100 nanomet.",
+    "gold_source_id": "openstax-computer-science",
+    "gold_page": 800,
+    "evidence_quote": "structures and devices about 1 to 100 nm in size",
+    "filter": null
+  }
+]

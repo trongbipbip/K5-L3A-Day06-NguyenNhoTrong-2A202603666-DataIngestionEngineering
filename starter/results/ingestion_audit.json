@@ -1,0 +1,45 @@
+{
+  "document_id": "openstax-computer-science",
+  "source": "data/openstax_computer_science.pdf",
+  "physical_pages": 939,
+  "nonempty_pages": 937,
+  "empty_pages": [1, 2],
+  "error_pages": [],
+  "total_characters": 2513004,
+  "chapter_metadata": {
+    "source": "OpenStax contents pages and physical PDF page ranges",
+    "filter_field": "chapter",
+    "values": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+  },
+  "strategies": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "chunk_count": 5953,
+      "min_length": 9,
+      "max_length": 500,
+      "average_length": 464.01,
+      "pages_covered": 937
+    },
+    "B": {
+      "chunking": "paragraph",
+      "max_size": 800,
+      "chunk_count": 3628,
+      "min_length": 1,
+      "max_length": 800,
+      "average_length": 692.45,
+      "pages_covered": 937
+    }
+  },
+  "verified": {
+    "python_syntax": true,
+    "strategy_a_runs": true,
+    "strategy_b_runs": true,
+    "chapter_filter_samples": {
+      "physical_page_20": "1",
+      "physical_page_52": "2",
+      "physical_page_700": "12"
+    }
+  }
+}

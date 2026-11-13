@@ -45,3 +45,18 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Kết quả triển khai của bài nộp
+
+Implementation của bài này nằm trong `starter/`. Chạy từ thư mục `starter/`:
+
+```powershell
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+docker compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py
+python -m src.run
+python -m scripts.run_benchmark
+```
+
+Embedding dùng OpenAI `text-embedding-3-small` với 1536 chiều; vector store là PostgreSQL 16.16 + pgvector 0.8.7. Kết quả và trace nằm trong `starter/results/`, benchmark nằm trong `starter/benchmark/`, manifest nằm trong `starter/data/manifest.json`, và báo cáo cá nhân nằm trong `report/individual/2A202603666_NguyenNhoTrong.md`.

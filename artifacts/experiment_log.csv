@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,chapter,category,language",none,text-embedding-3-small-1536,"Fixed windows provide a simple baseline but may split semantic units.",2/15,5/15,1/5,2/5,"5953 chunks; A/B/C ingest and storage run took 473.69 seconds total; API cost not captured exactly."
+B,paragraph,800,0,"document_id,source,page,chapter,category,language",none,text-embedding-3-small-1536,"Paragraph grouping should preserve context better than fixed windows.",2/15,7/15,3/5,3/5,"3628 chunks; same corpus, model and benchmark as A; vectors stored successfully."
+C,paragraph,800,0,"document_id,source,page,chapter,category,language","chapter when provided by question",text-embedding-3-small-1536,"A metadata filter should keep filtered retrieval within the requested chapter.",2/15,7/15,3/5,3/5,"Same chunks/vectors as B; q19 filter chapter=12 complied for 3/3 top-3 records."

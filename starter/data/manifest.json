@@ -1,0 +1,27 @@
+[
+  {
+    "document_id": "openstax-computer-science",
+    "title": "Introduction to Computer Science",
+    "source_path": "data/openstax_computer_science.pdf",
+    "source_url": "https://openstax.org/books/introduction-computer-science",
+    "license_or_permission": "CC BY-NC-SA 4.0, OpenStax/Rice University",
+    "accessed_at": "2026-11-13",
+    "language": "en",
+    "category": "computer-science",
+    "publisher": "OpenStax",
+    "physical_page_count": 939,
+    "included_physical_page_ranges": [[19, 920]],
+    "included_content_page_count": 902,
+    "excluded_physical_page_ranges": [[1, 18], [921, 939]],
+    "page_policy": {
+      "include": "Các trang 19-920 thuộc Chapters 1-14, gồm phần bài học và chapter review",
+      "exclude": [
+        "trang bìa và thông tin xuất bản",
+        "mục lục và preface",
+        "trang trống hoặc không trích xuất được text",
+        "appendix và index ở các trang 921-939"
+      ]
+    },
+    "notes": "Ingestion xác nhận 939 trang vật lý, 937 trang có text và 2 trang rỗng (1, 2). Phạm vi nội dung được chốt là physical pages 19-920, vượt xa yêu cầu tối thiểu 30 trang."
+  }
+]
